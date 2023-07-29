@@ -1,0 +1,22 @@
+{
+    "mobile": {
+        "name": "Realme 6",
+        "ip": "192.168.29.118"
+    },
+    "sushil": {
+        "name": "Sushil's Laptop",
+        "ip": "192.168.0.142"
+    },
+    "tanmay": {
+        "name": "Tanmay's Laptop",
+        "ip": "192.168.0.217"
+    },
+    "raghav": {
+        "name": "Raghav's Laptop",
+        "ip": "192.168.1.187"
+    },
+    "MyMobile": {
+        "name": "Akshat",
+        "ip": "192.168.25.29"
+    }
+}
