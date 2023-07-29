@@ -72,6 +72,7 @@ def get_valid_input(prompt: str, validation_func: callable, not_empty=True, erro
         prompt (str): The prompt message for the user.
         validation_func (callable): A validation function to check the user input.
         not_empty (bool, optional): Set to False if empty input is allowed. Defaults to True.
+        error_message (str, optional): Print custom error message when provided
     Returns:
         any: The validated user input.
     """

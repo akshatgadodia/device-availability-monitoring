@@ -50,40 +50,36 @@ The Device Availability Monitoring Application is a Python-based tool designed t
    ```
    python __main__.py --view-device <DEVICE_ID>
    ```
-   Replace `DEVICE_ID` with the actual ID of the device.
-
+   Replace `DEVICE_ID` with the actual ID of the device.<br /></br>
 
 4. To update a device's information by specifying its ID, run:
    ```
    python __main__.py --update-device <DEVICE_ID>
    ```
-   Replace `DEVICE_ID` with the actual ID of the device.
-
+   Replace `DEVICE_ID` with the actual ID of the device.<br /></br>
 
 5. To delete a device by specifying its ID, run:
    ```
    python __main__.py --delete-device <DEVICE_ID>
    ```
-   Replace `DEVICE_ID` with the actual ID of the device.
-
+   Replace `DEVICE_ID` with the actual ID of the device.<br /></br>
 
 6. To view all the device availability data, run:
    ```
    python __main__.py --view-device-availability-data
    ```
-
 7. To search for availability data by parameter type and value, run:
    ```
    python __main__.py --view-filtered-device-availability-data <parameter> <value>
    ```
    Replace `parameter` with `date` or `id` and `value` with the specific date or device ID you want to search for.
-
+   <br /></br>
 
 8. To ping a specific device by its IP, run:
    ```
    python __main__.py --ping-device <DEVICE_IP>
    ```
-   Replace `DEVICE_IP` with the actual IP address of the device.
+   Replace `DEVICE_IP` with the actual IP address of the device.<br /></br>
 
 9. To start monitoring all devices and continuously ping them, run:
    ```
